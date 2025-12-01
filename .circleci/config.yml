@@ -4,7 +4,7 @@ orbs:
 jobs:
   test:
     docker:
-      - image: cimg/base:current
+      - image: cimg/node:25.2.1
     steps:
       - cicd/runcloud:
           project_id: "59"
