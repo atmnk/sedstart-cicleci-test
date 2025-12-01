@@ -6,7 +6,8 @@ jobs:
     docker:
       - image: cimg/node:25.2.1
     steps:
-      - cicd/runcloud:          
+      - cicd/runcloud:    
+          api_key: SEDSTART_API_KEY_PROD      
           project_id: 547
           test_id: 4375
           profile_id: 899
